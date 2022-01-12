@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 5px 0px 5px black;
+    height: 50px;
+}
+
+label{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    transition: all .2s;
+    text-align: center;
+}
+
+@media (hover: hover){
+
+    header label:hover{
+    cursor: pointer;
+    background: rgb(15, 15, 15);
+    color: white;
+}
+
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+
+@media (hover: hover){
+    .menu li:hover{
+    background-color: rgb(44, 44, 44);
+}
+
+}
+
+.menu li:active{
+    background-color: rgb(85, 85, 85);
+}
+
+.menu li{
+    transition: all .3s;
+}
+
+@media (max-width: 768px){
+
+    header label{
+        display: block;
+        color: white;
+    }
+
+    header label:active{
+        background-color: rgb(82, 82, 82);
+        transition: all .1s;
+    }
+
+    .menu{
+        position: absolute;
+        background-color: rgb(29, 29, 29);
+        width: 30%;
+        margin-left: -70%;
+        transition: all .3s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid rgb(105, 105, 105);
+        border-right: 1px solid rgb(105, 105, 105);
+        border-bottom: 1px solid rgb(105, 105, 105);
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+
+    .imagenmenu{
+        display: none;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        display: none;
+    }
+
+}
+
+.Cimagen1{
+    background-color: rgb(32, 32, 32);
+    margin-top: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.Cq1{
+    background-color: rgb(32, 32, 32);
+    color: rgb(192, 192, 192);
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.Cq1 h1 p{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.Cq1 p{
+    font-size: 20px;
+}
+
+.imagenmenu{
+    width: 60px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(95, 95, 95);
+}
+
+.Cq{
+    background-color: rgb(32, 32, 32);
+    color: rgb(209, 209, 209);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.info{
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+    text-align: left;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    margin-top: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bdr{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px;
+    font-family: monospace;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.frown{
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.textcheck{
+    color: white;
+}
+
+.check{
+    color: rgb(68, 255, 146);
+}
+
+.admin{
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    color: white;
+}
+
+.fraizx{
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 10px black;
+}
