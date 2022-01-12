@@ -1,3 +1,3 @@
 # 4po
 
-Servidor de Minecraft creado en (https://aternos.org)[aternos]
+> Servidor de Minecraft creado en (https://aternos.org)[aternos]
