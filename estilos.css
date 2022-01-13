@@ -22,11 +22,10 @@ label{
 
 header label{
     display: none;
-    width: 90px;
-    height: 90px;
     padding: 10px;
     transition: all .2s;
     text-align: center;
+    font-size: 50px;
 }
 
 @media (hover: hover){
