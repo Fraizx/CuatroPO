@@ -69,7 +69,7 @@ header label{
     transition: all .3s;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1080px){
 
     header label{
         display: block;
