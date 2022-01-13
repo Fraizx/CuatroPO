@@ -26,7 +26,6 @@ header label{
     width: 30px;
     height: 30px;
     transition: all .2s;
-    float: left;
     text-align: center;
 }
 
