@@ -22,8 +22,8 @@ label{
 
 header label{
     display: none;
-    width: 30px;
-    height: 30px;
+    width: 90px;
+    height: 90px;
     padding: 10px;
     transition: all .2s;
     text-align: center;
