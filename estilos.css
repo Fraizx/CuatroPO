@@ -22,11 +22,12 @@ label{
 
 header label{
     display: none;
+    width: 90px;
+    height: 90px;
     padding: 10px;
-    width: 30px;
-    height: 30px;
     transition: all .2s;
     text-align: center;
+    font-size: 80px;
 }
 
 @media (hover: hover){
@@ -69,7 +70,13 @@ header label{
     transition: all .3s;
 }
 
-@media screen and (max-width: 1080px){
+/*Responsive*/
+
+@media (max-width: 1280px){
+
+    header{
+        height: 100px;
+    }
 
     header label{
         display: block;
@@ -84,9 +91,9 @@ header label{
     .menu{
         position: absolute;
         background-color: rgb(29, 29, 29);
-        width: 30%;
-        margin-left: -70%;
-        transition: all .3s;
+        width: 80%;
+        margin-left: -100%;
+        transition: all .8s;
     }
 
     .menu ul{
@@ -97,6 +104,7 @@ header label{
         border-top: 1px solid rgb(105, 105, 105);
         border-right: 1px solid rgb(105, 105, 105);
         border-bottom: 1px solid rgb(105, 105, 105);
+        font-size: 60px;
     }
 
     #btn-menu:checked ~ .menu{
@@ -115,7 +123,25 @@ header label{
         display: none;
     }
 
+    .Cimagen1 img{
+        width: 600px;
+        height: 300px;
+    }
+
+    .admin{
+        font-size: 60px;
+        margin: 20px;
+    }
+
+    .admin img{
+        width: 300px;
+        height: 300px;
+        margin-top: 90px;
+    }
+
 }
+
+/*Fin Code Responsive*/
 
 .Cimagen1{
     background-color: rgb(32, 32, 32);
@@ -200,7 +226,7 @@ header label{
     margin: 10px;
 }
 
-.frown{
+.bedrock-emoji{
     font-size: 60px;
     margin-bottom: 5px;
 }
@@ -224,4 +250,40 @@ header label{
     margin-top: 8px;
     margin-right: 8px;
     box-shadow: 0px 0px 10px black;
+}
+
+.ayuda{
+    background-color: rgb(32, 32, 32);
+    color: rgb(200, 200, 200);
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: monospace, Arial;
+}
+
+.type{
+    text-align: center;
+    color: white;
+    align-content: center;
+    font-size: 60px;
+}
+
+a{
+    color: rgb(87, 184, 223);
+    text-decoration: none;
+}
+
+@media (hover: hover){
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.ed{
+    color: white;
+    font-family: monospace, Arial;
+    font-size: 60px;
+    text-align: center;
 }
