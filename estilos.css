@@ -263,13 +263,6 @@ header label{
     font-family: monospace, Arial;
 }
 
-.type{
-    text-align: center;
-    color: white;
-    align-content: center;
-    font-size: 60px;
-}
-
 a{
     color: rgb(87, 184, 223);
     text-decoration: none;
