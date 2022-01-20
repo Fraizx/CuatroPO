@@ -257,7 +257,8 @@ header label{
     color: white;
     border-left: 5px solid rgba(0, 255, 119, 0.705);
     margin: 10px;
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .admin a{
