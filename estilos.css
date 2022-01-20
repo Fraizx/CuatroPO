@@ -301,11 +301,75 @@ a{
 .ed{
     color: white;
     font-family: monospace, Arial;
-    font-size: 60px;
+    font-size: 20px;
     text-align: center;
 }
 
 .OWNER{
     color: rgb(0, 255, 234);
     text-shadow: 5px 0px 0px rgba(0, 0, 0, 0.431);
+}
+
+.normast{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.normas{
+    background-image: linear-gradient(to left, rgb(32, 32, 32), rgb(63, 63, 63));
+    color: white;
+    margin: 10px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ndescription{
+    color: rgb(121, 121, 121);
+}
+
+.fnormas{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace, Arial;
+}
+
+.gmail{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+    margin: 10px;
+}
+
+.gmail a{
+    color: white;
+    background-color: rgb(78, 78, 78);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    transition: all .2s;
+}
+
+.gmail a:hover{
+    text-decoration: none;
+    box-shadow: none;
+    background-color: rgb(83, 83, 83);
+}
+
+.gmail a:active{
+    border: 3px solid rgb(121, 121, 121);
+    transition: .0s;
 }
